@@ -1,0 +1,99 @@
+body{
+	background: url(dev.jpg) no-repeat;
+	background-size: cover;
+	color:black;
+}
+
+
+.title{
+	font-size: 50px;
+	text-align: center;
+	text-decoration: none;
+	font-family: Merriweather;
+	font-style: italic;
+	color:#21618C;
+	margin-top: 5px;
+	box-sizing: content-box;
+	padding-left: -30px;
+	font-weight: bold;
+}
+
+.intro{
+	color:yellow;
+	font-size: 24px;
+	font-family: 'Roboto Slab', serif;
+	padding: none;
+	margin: none;
+	text-decoration: none;
+	border: none;
+	box-sizing: content-box;
+	background: black;
+	opacity: .8;
+	color: white;
+	transition: .4s;
+}
+
+.btn{
+	box-sizing: content-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+	text-decoration: none;
+	padding: none;
+	margin: none;
+	border:none;
+	
+}
+
+.btn button{
+	padding: none;
+	margin: none;
+	border:none;
+	border-radius: 30px;
+	border:2px solid #A3E4D7;
+	background: none;
+	width: 100px;
+	height: 100px;
+	background: black;
+	transition: .4s;
+	opacity: .8;
+	margin-top: 35px;
+
+
+}
+
+.btn button a{
+	font-size: 18px;
+	font-family: Roboto Slab;
+	font-style: bold;
+	font-weight: bolder;
+	color:white;
+	margin-bottom: 
+}
+
+.intro2{
+	box-sizing: border-box;
+	font-family:'Roboto Slab', serif;
+	color:white;
+	font-size: 22px;
+	text-overflow: hidden;
+	padding:none;
+	margin: none;
+	border: none;
+	background: black;
+	padding-bottom: 4px;
+	padding-top: 4px;
+	margin-bottom: 20px;
+	margin-top: 22px;
+	transition: .4s;
+	opacity: .8;
+
+}
+
+.intro2 a{
+	color:green;
+	margin-right: 4px;
+	margin-left: 4px;
+	opacity: 1;
+	transition: 1s;
+}

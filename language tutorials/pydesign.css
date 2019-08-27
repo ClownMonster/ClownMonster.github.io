@@ -1,0 +1,72 @@
+body{
+	background: url(py.jpg) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	box-sizing: content-box;
+	
+}	
+
+.title h1{
+	text-align: center;
+	font-family: 'Hepta Slab', serif;
+	font-size: 40px;
+	color:black;
+	border: none;
+	color: #D0D3D4;
+	margin: none;
+	margin-top:30px;
+	box-sizing: border-box;
+	
+}
+
+.btn button{
+	padding: none;
+	margin:none;
+	border:none;
+	background: #2E4053;
+	width: 100px;
+	height: 100px;
+	border-radius: 20px;
+	border:2px solid #76D7C4;
+	box-sizing: border-box;
+	outline: none;
+
+}
+
+.btn button a{
+	color:#F1C40F;
+	font-weight: bold;
+	box-sizing: border-box;
+
+}
+
+.one{
+	margin: none;
+	padding: none;
+	border: none;
+	box-sizing: border-box;
+} 
+
+.two{
+	margin: none;
+	padding: none;
+	border: none;
+	box-sizing: border-box;
+} 
+
+.intro2{
+ 	box-sizing:border-box;
+	font-size: 24px;
+	font-family: 'Roboto Slab', serif;
+	background:#2E4053;
+	margin: none;
+	color: #D0D3D4;
+	padding: none;
+	border: none;
+	border-top: 8px;
+	border-style: round;
+	margin-left: none;
+	margin-bottom: none;
+	padding-bottom: 8px;
+	padding-top: 4px;
+ }
