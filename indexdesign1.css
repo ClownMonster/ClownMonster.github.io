@@ -140,7 +140,7 @@ body{
 	box-sizing: border-box;
 }
 
-.nav li:click  .os li{
+.nav li:hover .os li{
 	display: block;
 	box-sizing: border-box;
 }
