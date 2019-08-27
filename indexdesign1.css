@@ -137,13 +137,13 @@ body{
 
 .nav li .os li{
 	display: none;
-	box-sizing: border-box;
 }
 
-.nav li:hover .os li{
+.nav li:hover  .os li{
 	display: block;
-	box-sizing: border-box;
+
 }
+
 
 
 
