@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: clownmonster.github.io
+Token: 4f2c4b5a5c85ff5be365183272217c0a8fd486c899692cfacae452821ce5daff
