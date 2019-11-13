@@ -58,10 +58,16 @@ h3{
 }
 
 .Language-tutorials  li img{
-	margin: none;
+	margin: 0px;
 	text-align: left;
-	padding-left: none;
+	padding-left: 0px;
 	margin-left: none;
+}
+
+.Language-tutorials div{
+	display:flex;
+	flex-direction:row;
+	
 }
 
 .footer{
