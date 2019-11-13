@@ -118,15 +118,19 @@ h3{
 
 
 
-.block-one{
-	margin-top: 40px;
-	background:black;
+
+.block-one, .block-two, .block-three, .block-four, .block-five{
 	background-size: cover;	
+	display: flex;
+	flex-direction: row;
+	padding: 0px;
+	margin: 0px;
+
 }
 
 .block-one ul li{
 	float: left;
-	margin-right: 56px;
+	margin-right: 50px;
 	width:200px;
 	list-style: none;
 	border:2px solid green;
@@ -134,6 +138,7 @@ h3{
 	border:2px solid #1ABC9C;
 	border-radius: 17px;
 	background:#05237D;
+	margin-bottom: 2rem;
 
 }
 
@@ -144,6 +149,7 @@ h3{
 	color:white;
 	font-weight: bold;
 	outline: none;
+
 }
 
 .block-one ul li a i{
@@ -152,15 +158,10 @@ h3{
 }
 
 
-.block-two{
-	margin-top: 40px;
-	background:black;
-	background-size: cover;	
-}
 
 .block-two ul li{
 	float: left;
-	margin-right: 56px;
+	margin-right: 50px;
 	width:200px;
 	list-style: none;
 	border:2px solid green;
@@ -168,6 +169,7 @@ h3{
 	border:2px solid #1ABC9C;
 	border-radius: 17px;
 	background:#05237D;
+	margin-bottom: 2rem;
 
 }
 
@@ -187,11 +189,7 @@ h3{
 }
 
 
-.block-three{
-	margin-top: 40px;
-	background:black;
-	background-size: cover;	
-}
+
 
 .block-three ul li{
 	float: left;
@@ -203,6 +201,7 @@ h3{
 	border:2px solid #1ABC9C;
 	border-radius: 17px;
 	background:#05237D;
+	margin-bottom: 2rem;
 
 }
 
@@ -221,11 +220,7 @@ h3{
 }
 
 
-.block-four{
-	margin-top: 40px;
-	background:black;
-	background-size: cover;	
-}
+
 
 .block-four ul li{
 	float: left;
@@ -237,6 +232,7 @@ h3{
 	border:2px solid #1ABC9C;
 	border-radius: 17px;
 	background:#05237D;
+	margin-bottom: 2rem;
 
 }
 
@@ -255,11 +251,7 @@ h3{
 }
 
 
-.block-five{
-	margin-top: 40px;
-	background:black;
-	background-size: cover;	
-}
+
 
 .block-five ul li{
 	float: left;
@@ -271,6 +263,7 @@ h3{
 	border:2px solid #1ABC9C;
 	border-radius: 17px;
 	background:#05237D;
+	margin-bottom: 2rem;
 
 }
 
@@ -287,6 +280,7 @@ h3{
 	margin-left: 15px;
 	color:#58D68D;
 }
+
 
 .lists li{
 	width:259px;
