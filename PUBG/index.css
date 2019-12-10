@@ -1,0 +1,144 @@
+*{box-sizing: border-box;}
+
+body
+{
+	background: url("./index.jpg") no-repeat;
+	background-position: center;
+	opacity: .9;
+
+}
+
+.header > h1
+{	margin-top: 2rem;
+	color:white;
+	font-family: Merriweather;
+	text-align: center;
+
+}
+
+#in-form{
+	position: absolute;
+	left:50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+
+}
+
+#in-id-form{
+	/*background-color:#283747;*/
+	display: flex;
+	flex-direction: column;
+
+}
+
+#in-id-form > input{
+ width: 25rem;
+ height: 2.8rem;
+ line-height: .8rem;
+ text-align: center;
+ margin-bottom: 1.3rem;
+ background-color: #1F618D;
+ outline: none;
+ border: 0px;
+ color: white;
+ box-shadow: 0.2rem 0.3rem 0.3rem 0.2rem black;
+ font-family: Roberto;
+ font-size: 18px;
+ font-weight: bold;
+
+
+}
+
+::placeholder{
+	color:white;
+}
+
+#in-id-form > button{
+width: 10rem;
+justify-content: center;
+position: relative;
+ height: 2.8rem;
+ line-height: .8rem;
+ text-align: center;
+ background-color: #1F618D;
+ outline: none;
+ border: 0px;
+ color: white;
+ box-shadow: 0.2rem 0.3rem 0.3rem 0.2rem black;
+ font-family: Roberto;
+ font-size: 18px;
+ font-weight: bold;
+
+}
+
+#in-id-form > button:hover{
+	background:#5D6D7E;
+}
+
+#nav-one{
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+	margin-top: 16rem;
+
+
+}
+
+#nav-one > nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 50rem;
+}
+
+#nav-one > nav > select{
+	width: 20rem;
+	height: 2.4rem;
+	background-color: #1F618D;
+	 outline: none;
+	 border: 0px;
+	 color: white;
+	 box-shadow: 0.2rem 0.3rem 0.3rem 0.2rem black;
+	 font-family: 'Barlow';
+	 font-size: 18px;
+	 font-weight: bold;
+	 align-items: center;
+}
+
+#nav-one > nav > select:hover{
+	background-color:#5D6D7E;
+	cursor: pointer;
+}
+
+#nav-one > nav > select > option{
+	color:white;
+}
+
+
+#nav-one > #c-dis > p {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	color:white;
+	font-family: 'Barlow';
+	font-size: 20px;
+
+}
+
+
+#nav-one > #c-dis > button{
+	width: 20rem;
+	background-color: orange;
+	font-family: Merriweather;
+	font-size: 22px;
+	outline: none;
+	border: 0px;
+	height: 3rem;
+	border-radius: 30%;
+	left:30%;
+	position: relative;
+
+
+}
+
