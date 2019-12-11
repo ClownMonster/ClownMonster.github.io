@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Pubg Uc Generator</title>
+
+	<!-- Bootstrap -->
+	<script src="https://kit.fontawesome.com/bd81c4ab1e.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	  <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<!--fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Barlow&display=swap" rel="stylesheet">
+
+	<!-- Infolder links -->
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script type="text/javascript" src="index.js"></script>
+	<script type="text/javascript" src="second.js"></script>
+
+</head>
+<body>
+	<div class="header">
+		<h1>Pubg UC Generator</h1>
+	</div>
+
+	<div id="in-form">
+		<form id="in-id-form" action="javascript:void(0);">
+			<input type="text" autocomplete="off" spellcheck="off" id="Name" placeholder="Enter Character Name" >
+			<input type="Number" maxlength="10"  id="p-id" autocomplete="off" spellcheck="off" placeholder="Enter Your Pubg Id" >
+			<button id="submit" class="float-left submit-button" onclick="main();">Submit</button>
+		</form>
+	</div>
+	<div id="nav-one" style="display: none;">
+		<nav>
+		<select id="sel1" onchange="navfun1()">
+			<option>Select UC</option>
+			<option>100</option>
+			<option>200</option>
+			<option>400</option>
+			<option>1400</option>
+			<option>2000</option>
+		</select>
+		<select id="sel2" onchange="navfun2()">
+			<option>Select BP</option>
+			<option>1000000</option>
+			<option>1050000</option>
+			<option>20000000</option>
+			<option>40000000</option>
+			<option>60000000</option>
+			<option>100000000</option>
+		</select>
+	</nav>
+	<br>
+	<br>
+	<br>
+		<div id="c-dis">
+			<p id="p1">UC Choosen :</p>
+			<p id="p2">BP Choosen :</p>
+			<button id="gen" onclick="javascript:location.href='./second.html' ">Generate</button>
+		</div>
+	</div>
+	
+	<div style="margin-bottom: 50rem;"></div>
+
+
+<!-- Additionals for jquery -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
