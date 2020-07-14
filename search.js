@@ -5,7 +5,7 @@ webSearch.setSearchCompleteCallback(this, webSearchComplete, [webSearch]);
 function webSearchComplete (searcher, searchNum) {
 	var contentDiv = document.getElementById('web-content');
 	contentDiv.innerHTML = '';
-    var results = searcher.results;
+        var results = searcher.results;
 
     var newResultsDiv = document.createElement('div');
     newResultsDiv.id = 'web-content';
